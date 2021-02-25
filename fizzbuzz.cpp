@@ -10,8 +10,8 @@ int main(int argc, char** argv)
    cin >> X;
    cin >> Y;
    cin >> N;
-
-   for (int i=0 ; i<= N; i++){
+   
+   for (int i=1 ; i<= N; i++){
       if (i%X == 0 || i%Y == 0){
          if (i%X == 0 && i%Y == 0){
             cout << "FizzBuzz" << endl;
